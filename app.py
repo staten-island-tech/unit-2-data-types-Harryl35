@@ -28,6 +28,13 @@ for money in moneys
     x = x + money
     print(x) """
 
+""" #determine if number is even or odd#
+number = int(input("Enter a number: "))
+if number % 2 == 0:
+    print("Even")
+else:
+    print("Odd") """
+
 """ #tip and total calculator
 def add(x,y):
     print(round(x + y))
@@ -37,4 +44,15 @@ tip = int(bill * 0.15)
 print(round(tip))
 print(add(tip,bill)) """
 
-sentence = input("Make a sentence")
+""" sentence = input("Make a sentence")
+y = sentence.split()
+total = len(y)
+print(total) """
+
+verb1 = input("verb1")
+verb2 = input("verb2")
+noun1 = input("noun1")
+number1 = input("number1")
+famous = input("famous person")
+
+madlib = (f"one day i met{"famous person"} then they sign my {"noun1"} and i was ")
