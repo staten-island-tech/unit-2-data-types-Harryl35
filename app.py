@@ -72,4 +72,36 @@ else:
     tip=0
 print(f"your tip will be {tip}") """
 
-number =
+""" number = int(input("Give me a number"))
+factors = []
+x = 0
+for i in range (1,number):
+    x = x + 1
+    if number % x == 0:
+        factors.append(i)
+print(factors) """
+
+number = int(input("Give me a number"))
+factors = []
+x = 0
+for i in range (1,number):
+    x = x + 1
+    if number % x == 0:
+        factors.append(i)
+print(factors)
+number = int(input("Give me a number"))
+factors = []
+x = 0
+for i in range (1,number):
+    x = x + 1
+    if number % x == 0:
+        factors.append(i)
+print(factors)
+common_items = set(factors) & set(factors)
+if common_items:
+    greatest_common = max(common_items)
+    print("The greatest common number (GCF) is", greatest_common)
+else:
+    print("There are no common factors.")
+
+
